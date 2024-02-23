@@ -1,0 +1,144 @@
+footer {
+  background-color: #04162c;
+  color: #fff;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer__wrapper {
+  max-width: 80rem;
+  width: 100%;
+}
+
+.footer__upper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.footer__upper-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.footer__left-title {
+  font-size: 1.8rem;
+}
+
+.footer__left-desc {
+  max-width: 65ch;
+  color: #cacaca;
+  letter-spacing: 0.1rem;
+}
+
+.footer__line {
+  margin-top: 5rem;
+  background-color: #474747a6;
+}
+
+.footer__lower {
+  margin-top: 7rem;
+}
+
+.footer__lower-1 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer__lower-title {
+  font-size: 2.5rem;
+}
+
+.footer__lower-desc {
+  max-width: 35ch;
+  color: #cacaca;
+  letter-spacing: 0.1rem;
+}
+
+.footer__lower-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__lower-2 {
+  width: 10rem;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer__lower-link-desc {
+  font-size: 1.3rem;
+  max-width: 35ch;
+  color: #b1b1b1;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+.footer__lower-links {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 200;
+}
+
+.footer__lower-link a:hover {
+  text-decoration: underline;
+}
+
+.footer__lower a {
+  color: #fff;
+}
+
+.footer__lower-cont {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media (min-width: 475px) {
+
+}
+
+@media (min-width: 640px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+  .footer__upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+
+}
+
+@media (min-width: 1536px) {
+
+}
