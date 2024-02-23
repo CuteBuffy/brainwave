@@ -433,7 +433,7 @@ hr {
 }
 
 .testimonial__section {
-  background-image: url(./imgs/BG_blue.png);
+  background-image: url(/public/imgs/BG_blue.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
